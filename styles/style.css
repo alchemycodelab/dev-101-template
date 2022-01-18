@@ -1,11 +1,11 @@
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
+    /* --color1: white;
     --color2: white;
     --color3: white;
     --color4: white;
-    --color5: white;
+    --color5: white; */
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
@@ -85,4 +85,19 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+#main-section {
+    border: black 2px solid;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.italics {
+    font-style: italic;
+    font-size: larger;
 }
